@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>reveal-md</title>
+        <link rel="stylesheet" href="./css/reveal.css">
+        <link rel="stylesheet" href="./css/theme/black.css" id="theme">
+        <link rel="stylesheet" href="./css/highlight/zenburn.css">
+        <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print">
+
+    </head>
+    <body>
+
+        <div class="reveal">
+            <div class="slides"><section  data-markdown><script type="text/template"># PyCon 2017
+Portland, May 19 - 21
+</script></section><section ><section data-markdown><script type="text/template">
+## Structure
+
+* Three days, five simultaneous tracks, nearly 100 talks
+* Five keynote talks
+* Lively hallway track :D
+</script></section><section data-markdown><script type="text/template">
+<!-- .slide: data-background="./photos/IMG_20170521_091041984.jpg" -->
+</script></section></section><section  data-markdown><script type="text/template">
+# Talk Highlights
+</script></section><section ><section data-markdown><script type="text/template">
+## Keynotes
+
+**The Unexpected Effectiveness of Python in Science**
+
+Jake Vanderplas
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/ZyjCqQEUa8o">
+</iframe>
+</script></section><section data-markdown><script type="text/template">
+## Keynotes
+
+**Do It For Science**
+
+Katy Huff
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/kaGS4YXwciQ">
+</iframe>
+</script></section><section data-markdown><script type="text/template">
+## Keynotes
+
+**Kubernetes for Pythonistas**
+
+Kelsey Hightower
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/u_iAXzy3xBA">
+</iframe>
+</script></section></section><section ><section data-markdown><script type="text/template">
+## Track Talks
+
+**Factory Automation with Python - Stories about Robots, Serial Ports, and Barcode Readers**
+
+Jonas Neubert
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/cEyVfiix1Lw">
+</iframe>
+</script></section><section data-markdown><script type="text/template">
+## Track Talks
+
+**Constructive Code Review**
+
+Erik Rose
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/iNG1a--SIlk">
+</iframe>
+</script></section><section data-markdown><script type="text/template">
+## Track Talks
+
+**Dask: A Pythonic Distributed Data**
+
+Matthew Rocklin
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/RA_2qdipVng">
+</iframe>
+</script></section><section data-markdown><script type="text/template">
+## Track Talks
+
+**The Wild West of Data Wrangling**
+
+Sarah Guido
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/xn9sTXR3Cp8">
+</iframe>
+</script></section><section data-markdown><script type="text/template">
+## Track Talks
+
+**What Nobody Tells You About Documentation**
+
+Daniele Procida
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/azf6yzuJt54">
+</iframe>
+</script></section><section data-markdown><script type="text/template">
+## Track Talks
+
+**Ending Py2/Py3 compatibility in a user friendly manner**
+
+Matthias Bussonnier, Min Ragan-Kelley, M Pacer, Thomas Kluyver
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/2DkfPzWWC2Q">
+</iframe>
+</script></section><section data-markdown><script type="text/template">
+## Track Talks
+
+**The Python Visualization Landscape**
+
+Jake VanderPlas
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/FytuB8nFHPQ">
+</iframe>
+</script></section><section data-markdown><script type="text/template">
+## Track Talks
+
+**Cython as a Game Changer for Efficiency**
+
+Alex Orlov
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/_1MSX7V28Po">
+</iframe>
+</script></section><section data-markdown><script type="text/template">
+## Track Talks
+
+**Probabilistic Programming with PyMC3**
+
+Chris Fonnesbeck
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/5TyvJ6jXHYE">
+</iframe>
+</script></section></section><section  data-markdown><script type="text/template">
+## Panel Discussion with Guido van Rossum
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/iOUrf7WSSLc">
+</iframe>
+</script></section><section  data-markdown><script type="text/template">
+# Takeaways
+</script></section><section ><section data-markdown><script type="text/template">
+PyCon is half Django conference (webdev), half PyData conference (data science).
+</script></section><section data-markdown><script type="text/template">
+This is a symbiotic relationship.
+
+* web tech empowers data scientists: 
+   - interactive, cross-platform visualization (Jupyter, Bokeh)
+   - network communication (Tornado)
+   - data sharing
+* data science improves the work of web development:
+   - traffic analysis
+   - A/B testing
+   - market research
+</script></section><section data-markdown><script type="text/template">
+PyCon is also the place to connect with the community that develops core Python.
+
+If you're interested in getting involved in any capacity, it's a great place to get started.
+</script></section></section></div>
+        </div>
+
+        <script src="./lib/js/head.min.js"></script>
+        <script src="./js/reveal.js"></script>
+
+        <script>
+            function extend() {
+              var target = {};
+              for (var i = 0; i < arguments.length; i++) {
+                var source = arguments[i];
+                for (var key in source) {
+                  if (source.hasOwnProperty(key)) {
+                    target[key] = source[key];
+                  }
+                }
+              }
+              return target;
+            }
+
+            // Optional libraries used to extend on reveal.js
+            var deps = [
+              { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: './plugin/zoom-js/zoom.js', async: true },
+              { src: './plugin/notes/notes.js', async: true },
+              { src: './plugin/math/math.js', async: true }
+            ];
+
+            // default options to init reveal.js
+            var defaultOptions = {
+              controls: true,
+              progress: true,
+              history: true,
+              center: true,
+              transition: 'default', // none/fade/slide/convex/concave/zoom
+              dependencies: deps
+            };
+
+            // options from URL query string
+            var queryOptions = Reveal.getQueryHash() || {};
+
+            var options = {};
+            options = extend(defaultOptions, options, queryOptions);
+            Reveal.initialize(options);
+        </script>
+        
+    </body>
+</html>
